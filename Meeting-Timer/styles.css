@@ -1,0 +1,70 @@
+
+body {
+    background: #000;
+    color: #fff;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    overflow: hidden;
+}
+#holder {
+    /* background-color: cornflowerblue;  */
+    position: absolute;
+    right: 1em;
+    /* left: 50%; */
+    /* top: 50%; */
+    height: 150px;
+    width: 150px;
+    /* margin: -300px 0 0 -300px; */
+}
+#buttonBox
+{
+    /* background-color: gray;  */
+    position: absolute;
+    right: 200px;
+    /* left: 50%; */
+    /* top: 50%; */
+    height: 300px;
+    width: 200px;
+    /* margin: -300px 0 0 -300px; */
+}
+#copy {
+    bottom: 0;
+    font: 300 .7em "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    position: absolute;
+    right: 1em;
+    text-align: right;
+}
+#copy a {
+    color: #fff;
+}
+#time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10em;
+    margin: -.65em 0 0 -5em;
+    text-align: center;
+    font: 100 6em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#remainingTime{
+    position: absolute; 
+    right: 1em; 
+    /* background-color: blue; */
+}
+#startDelay{
+    position: absolute; 
+    right: 1em;
+    top: 145px; 
+    /* background-color: blue; */
+}
+.customTimer
+{
+    background-color: lightcoral 
+} 
+
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
