@@ -2,7 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>ScrumKeeper - Timer for Daily Scrum meetings</title>
+        <title>Meeting Timer - Timer for daily scrum and other meetings</title>
+        <!-- Acknowledgement to Arnaud Leray for providing a project which counts
+            up from zero to 15 minutes for daily scrums. This project uses his
+            code (https://github.com/arnaudleray/scrumkeeper) as a starting point
+            and enhanced it to: 
+            - have a countdown (rather than up)
+            - simplify the visuals to focus on just the remaining minutes (removed seconds hand)
+            - support 15,30, and 60 minute meetings or custom countdown
+            - shows when a meeting is started late and subtracts that time from countdown to end on time
+              -->
         <link rel="stylesheet" href="styles.css" media="screen">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
         <script src='main.js'></script>
